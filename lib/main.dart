@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const HomeScreen2());
+  runApp(const HomeScreen());
 }
 
 /// When is not [const], the body is rebuilt twice when has hot reload.
