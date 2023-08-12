@@ -1,3 +1,5 @@
-# flutter_rebuild_mre
+# Flutter | `extendBodyBehindAppBar` causing rebuilds.
 
-A new Flutter project.
+Minimal reproducible example for this issue below: 
+
+- https://github.com/flutter/flutter/issues/132424. 
