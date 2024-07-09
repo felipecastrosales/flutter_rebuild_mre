@@ -1,10 +1,11 @@
 name: flutter_rebuild_mre
-description: A new Flutter project.
+# https://github.com/flutter/flutter/issues/132424
+description: Minimal reproducible example for Flutter rebuild issue #132424
 publish_to: 'none'
-version: 0.1.0
+version: 0.1.1
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
+  sdk: '>=3.4.0 <4.0.0'
 
 dependencies:
   flutter:
@@ -13,7 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
